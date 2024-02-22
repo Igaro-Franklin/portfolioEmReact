@@ -7,7 +7,31 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+}
+
+.bg-projetos{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.349)), url("./assets/bg/polyGrid.svg");
+}
+
+@media (max-width: 770px){
+    .tela770px{
+      width: 96%;
+      flex-direction: column;
+      margin: auto 2%;
+    }
+
+    .marginTela770px{
+      width: 96%;
+      margin: 20px 2%;
+    }
 }

@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <div>
-        <div className='w-full flex h-20 fixed top-0 items-center justify-around mx-auto bg-black'>
+        <div className='w-full flex flex-col h-16 fixed top-0 items-center justify-around mx-auto bg-black'>
             <nav>
-                <ul className="flex text-4xl font-semibold gap-3">
+                <ul className="flex text-2xl font-semibold gap-3">
                     <li>
                         <a href="#Inicio" className="p-1 hover:text-blue-600 hover:underline">
                             Inicio
@@ -35,10 +35,10 @@ function App() {
             </nav>
         </div>
       </div>
-      <div id='Inicio' className="mt-28">
+      <div id='Inicio' className="">
         <Inicio/>
       </div>
-      <div id='Projetos' className="mt-28">
+      <div id='Projetos' className="">
         <Projetos/>
       </div>
     </>

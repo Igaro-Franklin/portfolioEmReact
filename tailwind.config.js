@@ -9,7 +9,12 @@ export default {
         '60': '60%'
       },
       boxShadow: {
-        'custom': '4px 4px 4px rgba(0, 0, 0)'
+        'custom1': '4px 4px 4px #000',
+        'custom2': '4px 4px 1px #1E429F',
+        'custom3': '4px 4px 2px #FFF'
+      },
+      backgroundColor:{
+        'bg01': '#414141c9'
       }
     },
   },
